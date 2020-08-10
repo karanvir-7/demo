@@ -17,7 +17,7 @@ app.use(cors())
 
 app.get('/',(req,res)=>{ 
  // res.header('Access-Control-Allow-Credentials', true);
-  res.send('hello world');  
+ // res.send('hello world');  
 });
 
 app.post('/loginCredentials',(req,res)=>{
